@@ -1,0 +1,38 @@
+import tkinter
+
+menu = tkinter.Tk()
+menu.geometry("400x300")
+menu.wm_iconbitmap("favicon.ico")
+menu.title("Menu")
+menu.configure(bg = "#D46A6A")
+
+menuButton = tkinter.Button(menu, text = "Button", bg = "#FFAAAA")
+
+menuButton.pack()
+
+
+encrypt = tkinter.Tk()
+encrypt.geometry("400x300")
+encrypt.wm_iconbitmap("favicon.ico")
+encrypt.title("Encrypt")
+
+encryptEntry = tkinter.Entry(encrypt)
+
+encryptEntry.pack()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu.mainloop()
+encrypt.mainloop()
